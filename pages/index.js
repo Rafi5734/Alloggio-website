@@ -21,7 +21,7 @@ export default function Home() {
                     />
                 </Head>
 
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="light" expand="lg" sticky="top">
                     <Container>
                         <Navbar.Brand href="#">
                             <img

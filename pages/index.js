@@ -21,7 +21,7 @@ export default function Home() {
                     />
                 </Head>
 
-                <Navbar bg="light" expand="lg" sticky="top">
+                <Navbar bg="light" expand="lg" fixed="top">
                     <Container>
                         <Navbar.Brand href="#">
                             <img
@@ -41,9 +41,11 @@ export default function Home() {
                                     title="Home"
                                     id="navbarScrollingDropdown"
                                 >
-                                    <Link href="/">MAIN HOME</Link>
-                                    <NavDropdown.Item href="#action4">
-                                        B&B Home
+                                    <NavDropdown.Item>
+                                        <Link href="/">MAIN HOME</Link>
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item>
+                                        <Link href="/bb">B&B HOME</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action4">
                                         HOSTEL HOME

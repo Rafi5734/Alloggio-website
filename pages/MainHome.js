@@ -193,7 +193,7 @@ const MainHome = () => {
                     eligendi quia culpa laboriosam reprehenderit dolorum?
                 </p>
             </Container>
-            <Container>
+            <Container className="mb-5">
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -213,29 +213,166 @@ const MainHome = () => {
                                 src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-room-img-04.jpg"
                             />
                             <Card.Body>
-                                <Card.Title>Modern Home</Card.Title>
+                                <Card.Title
+                                    style={{
+                                        fontSize: "30px",
+                                        fontFamily: "Montserrat",
+                                    }}
+                                    // className={styles.cardTitle}
+                                >
+                                    Modern Home
+                                </Card.Title>
                                 <Card.Text>
-                                    <p>from $75 / 75m2 / 1-3 person</p>
+                                    <p
+                                        className="lead"
+                                        style={{ color: "#b56953" }}
+                                    >
+                                        from $75 / 75m2 / 1-3 person
+                                    </p>
                                 </Card.Text>
-                                <Card.Text>
+                                <Card.Text className="lead">
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Debitis maiores voluptate
                                     vero est optio ipsa autem praesentium
                                     sapiente quisquam a.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">BOOK NOW</Button>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+                    <SwiperSlide>
+                        <Card style={{ width: "22rem" }}>
+                            <Card.Img
+                                variant="top"
+                                src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-room-img-02.jpg"
+                            />
+                            <Card.Body>
+                                <Card.Title
+                                    style={{
+                                        fontSize: "30px",
+                                        fontFamily: "Montserrat",
+                                    }}
+                                >
+                                    Bright Suite
+                                </Card.Title>
+                                <Card.Text>
+                                    <p
+                                        className="lead"
+                                        style={{ color: "#b56953" }}
+                                    >
+                                        from $105 / 50m2 / 2-4 person
+                                    </p>
+                                </Card.Text>
+                                <Card.Text className="lead">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Debitis maiores voluptate
+                                    vero est optio ipsa autem praesentium
+                                    sapiente quisquam a.
+                                </Card.Text>
+                                <Button variant="primary">BOOK NOW</Button>
+                            </Card.Body>
+                        </Card>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card style={{ width: "22rem" }}>
+                            <Card.Img
+                                variant="top"
+                                src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-room-img-03.jpg"
+                            />
+                            <Card.Body>
+                                <Card.Title
+                                    style={{
+                                        fontSize: "30px",
+                                        fontFamily: "Montserrat",
+                                    }}
+                                >
+                                    Cozy Place
+                                </Card.Title>
+                                <Card.Text>
+                                    <p
+                                        style={{ color: "#b56953" }}
+                                        className="lead"
+                                    >
+                                        from $45 / 43m2 / 1-3 person
+                                    </p>
+                                </Card.Text>
+                                <Card.Text className="lead">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Debitis maiores voluptate
+                                    vero est optio ipsa autem praesentium
+                                    sapiente quisquam a.
+                                </Card.Text>
+                                <Button variant="primary">BOOK NOW</Button>
+                            </Card.Body>
+                        </Card>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card style={{ width: "22rem" }}>
+                            <Card.Img
+                                variant="top"
+                                src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-room-img-01.jpg"
+                            />
+                            <Card.Body>
+                                <Card.Title
+                                    style={{
+                                        fontSize: "30px",
+                                        fontFamily: "Montserrat",
+                                    }}
+                                >
+                                    Maria's Home
+                                </Card.Title>
+                                <Card.Text>
+                                    <p
+                                        style={{ color: "#b56953" }}
+                                        className="lead"
+                                    >
+                                        from $50 / 100m2 / 2-6 person
+                                    </p>
+                                </Card.Text>
+                                <Card.Text className="lead">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Debitis maiores voluptate
+                                    vero est optio ipsa autem praesentium
+                                    sapiente quisquam a.
+                                </Card.Text>
+                                <Button variant="primary">BOOK NOW</Button>
+                            </Card.Body>
+                        </Card>
+                    </SwiperSlide>
                 </Swiper>
+                <Container
+                    style={{
+                        backgroundImage:
+                            "url(https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-img-01.jpg)",
+                        width: "100%",
+                        height: "60vh",
+                        marginTop: "150px",
+                    }}
+                >
+                    <div
+                        style={{
+                            width: "700px",
+                            backgroundColor: "#faf9f5",
+                            padding: "80px",
+                        }}
+                    >
+                        <h1
+                            style={{
+                                fontSize: "30px",
+                                fontFamily: "Montserrat",
+                            }}
+                        >
+                            House Rules
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Enim, aperiam. Assumenda, provident maiores
+                            odio tenetur minus unde voluptates, impedit
+                            repudiandae debitis doloremque aperiam at
+                            reprehenderit eveniet quibusdam velit ipsa! Est?
+                        </p>
+                    </div>
+                </Container>
             </Container>
         </>
     );

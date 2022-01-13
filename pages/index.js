@@ -19,6 +19,10 @@ export default function Home() {
                         rel="icon"
                         href="https://c0.klipartz.com/pngpicture/74/613/gratis-png-gmail-android-email-npm-material-diseno-letra-m-thumbnail.png"
                     />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+                        rel="stylesheet"
+                    ></link>
                 </Head>
 
                 <Navbar bg="light" expand="lg" fixed="top">

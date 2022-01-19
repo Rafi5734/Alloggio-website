@@ -132,6 +132,7 @@ export default function Home() {
                 </Navbar>
             </div>
             <MainHome></MainHome>
+            <Container></Container>
         </>
     );
 }

@@ -1,6 +1,6 @@
 // import styles from "./Home.module.css";
 import Image from "next/image";
-import { Button, Container, Card } from "react-bootstrap";
+import { Button, Container, Card, Carousel } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -432,6 +432,122 @@ const MainHome = () => {
                         </svg>
                         <p className="lead mt-2">Alarming</p>
                     </div>
+                </div>
+            </Container>
+            <Container>
+                <Carousel fade>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/centered-slider-img-3.jpg"
+                            alt="First slide"
+                        />
+                        <Carousel.Caption>
+                            <h1
+                                className="text-center"
+                                style={{ color: "#f06b66", fontSize: "5.5rem" }}
+                            >
+                                DRAWING ROOM
+                            </h1>
+                            <p className="lead text-center">
+                                A drawing room is a room in a castle where
+                                visitors may be entertained, and a historical
+                                term for what would now usually be called a
+                                living room, although today's palaces, country
+                                houses, and manor houses in Japan would be said
+                                to have drawing rooms.
+                            </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/05/centered-slider-img-04.jpg"
+                            alt="Second slide"
+                        />
+
+                        <Carousel.Caption>
+                            <h3
+                                className="text-center"
+                                style={{ color: "#f06b66", fontSize: "5.5rem" }}
+                            >
+                                DINNING ROOM
+                            </h3>
+                            <p className="lead text-center">
+                                A dining room is a room for consuming food. In
+                                modern times it is usually adjacent to the
+                                kitchen for convenience in serving, although in
+                                medieval times it was often on an entirely
+                                different floor level.
+                            </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/05/centered-slider-img-05.jpg"
+                            alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                            <h3
+                                className="text-center"
+                                style={{ color: "#f06b66", fontSize: "5.5rem" }}
+                            >
+                                BED ROOM
+                            </h3>
+                            <p className="lead text-center">
+                                A bedroom is a room situated within a
+                                residential or accommodation unit characterised
+                                by its usage for sleeping. A typical western
+                                bedroom contains as bedroom furniture one or two
+                                beds, a clothes closet, and bedside table and
+                                dressing table, both of which usually contain
+                                drawers.
+                            </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/centered-slider-img-1.jpg"
+                            alt="Third slide"
+                            style={{ filter: "grayscale(100%)" }}
+                        />
+
+                        <Carousel.Caption>
+                            <h3
+                                className="text-center"
+                                style={{ color: "#f06b66", fontSize: "5.5rem" }}
+                            >
+                                LIVING ROOM
+                            </h3>
+                            <p className="lead text-center">
+                                In Western architecture, a living room, also
+                                called a lounge room, lounge, sitting room, or
+                                drawing room, is a room for relaxing and
+                                socializing in a residential house or apartment.
+                                Such a room is sometimes called a front room
+                                when it is near the main entrance at the front
+                                of the house.
+                            </p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </Container>
+            <Container>
+                <div>
+                    <h1 className="text-center mt-5 mb-5">
+                        Edge B’n’B Offers and Events
+                    </h1>
+                    <p className="lead text-center mt-5 mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolore ea itaque placeat veritatis velit asperiores hic
+                        repellat culpa natus consequatur? Numquam architecto
+                        repudiandae vero rem necessitatibus suscipit ab dolore
+                        provident maxime cupiditate veritatis eos unde eius
+                        enim, dignissimos officiis non!
+                    </p>
                 </div>
             </Container>
         </>

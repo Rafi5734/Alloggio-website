@@ -4,6 +4,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import styles from "./Navbbar.module.css";
 import Link from "next/link";
 import MainHome from "./MainHome";
+// import Navbar from "../Components/Navbar";
 
 export default function Home() {
     return (
@@ -40,7 +41,6 @@ export default function Home() {
                                 style={{ maxHeight: "100px" }}
                                 navbarScroll
                             >
-                                {/* Home Navbar */}
                                 <NavDropdown
                                     title="Home"
                                     id="navbarScrollingDropdown"
@@ -49,7 +49,7 @@ export default function Home() {
                                         <Link href="/">MAIN HOME</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link href="/bb">B&B HOME</Link>
+                                        <Link href="/BB">B&B HOME</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action4">
                                         HOSTEL HOME
@@ -67,7 +67,7 @@ export default function Home() {
                                         LANDING
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                {/* Rooms Navbar */}
+
                                 <NavDropdown
                                     title="Rooms"
                                     id="navbarScrollingDropdown"
@@ -91,7 +91,7 @@ export default function Home() {
                                         CHECKOUT
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                {/* Pages Navbar */}
+
                                 <NavDropdown
                                     title="Pages"
                                     id="navbarScrollingDropdown"
@@ -112,7 +112,7 @@ export default function Home() {
                                         FAQ PAGES
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                {/* Gallery Navbar */}
+
                                 <NavDropdown
                                     title="Gallery"
                                     id="navbarScrollingDropdown"
@@ -132,7 +132,6 @@ export default function Home() {
                 </Navbar>
             </div>
             <MainHome></MainHome>
-            <Container></Container>
         </>
     );
 }

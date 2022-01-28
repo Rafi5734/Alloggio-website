@@ -549,6 +549,168 @@ const MainHome = () => {
                         enim, dignissimos officiis non!
                     </p>
                 </div>
+                <div className={styles.video_section}>
+                    {/* <img src="https://images.pexels.com/photos/756076/pexels-photo-756076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></img> */}
+                    {/* <ReactPlayer url="https://vimeo.com/9176224" /> */}
+                    <a href="https://vimeo.com/9176224">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="100"
+                            height="100"
+                            viewBox="0 0 24 24"
+                        >
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-3 17v-10l9 5.146-9 4.854z" />
+                        </svg>
+                    </a>
+                </div>
+            </Container>
+            <Container className="mt-5 mb-5">
+                <div className={styles.reviews}>
+                    <div className={styles.person}>
+                        <img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-img-03.png"></img>
+                        <h1>
+                            <q>Best time</q>
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minima porro harum tempore dignissimos dolore
+                            sit ex voluptatum aliquam atque laboriosam suscipit
+                            aperiam impedit, iste tenetur officia commodi
+                            praesentium laborum consectetur.
+                        </p>
+                        <p style={{ color: "#f06b66", fontSize: "1.3rem" }}>
+                            Andreas Mjøs
+                        </p>
+                    </div>
+                    <div className={styles.person}>
+                        <img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-img-04.png"></img>
+                        <h1>
+                            <q>A great find</q>
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minima porro harum tempore dignissimos dolore
+                            sit ex voluptatum aliquam atque laboriosam suscipit
+                            aperiam impedit, iste tenetur officia commodi
+                            praesentium laborum consectetur.
+                        </p>
+                        <p style={{ color: "#f06b66", fontSize: "1.3rem" }}>
+                            Mary Cruz
+                        </p>
+                    </div>
+                    <div className={styles.person}>
+                        <img src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/h1-img-05.png"></img>
+                        <h1>
+                            <q>Nice position</q>
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Minima porro harum tempore dignissimos dolore
+                            sit ex voluptatum aliquam atque laboriosam suscipit
+                            aperiam impedit, iste tenetur officia commodi
+                            praesentium laborum consectetur.
+                        </p>
+                        <p style={{ color: "#f06b66", fontSize: "1.3rem" }}>
+                            Mia Skurdal
+                        </p>
+                    </div>
+                </div>
+            </Container>
+            <Container className={styles.events}>
+                <div className={styles.event_cards}>
+                    <div className={styles.cards}>
+                        <img
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/blog-list-img-1.jpg"
+                            style={{ width: "100%", height: "" }}
+                        ></img>
+                        <p
+                            style={{
+                                color: "#f06b66",
+                                fontSize: "1.3rem",
+                                marginTop: "10px",
+                            }}
+                        >
+                            March 19, 2020
+                        </p>
+                        <h1 style={{ marginBottom: "30px" }}>
+                            A Night In Norway
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Saepe quis cum fugit tempore aliquid
+                            repudiandae quisquam, dicta repellendus dignissimos!
+                            Et accusantium sunt pariatur, animi blanditiis
+                            officiis consequuntur perferendis harum eum?
+                        </p>
+                        <Button variant="outline-danger">Read More</Button>{" "}
+                    </div>
+                    <div className={styles.cards}>
+                        <img
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/blog-list-img-2.jpg"
+                            style={{ width: "100%", height: "" }}
+                        ></img>
+                        <p
+                            style={{
+                                color: "#f06b66",
+                                fontSize: "1.3rem",
+                                marginTop: "10px",
+                            }}
+                        >
+                            March 19, 2020
+                        </p>
+                        <h1 style={{ marginBottom: "30px" }}>
+                            Coffee In Malmo
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Saepe quis cum fugit tempore aliquid
+                            repudiandae quisquam, dicta repellendus dignissimos!
+                            Et accusantium sunt pariatur, animi blanditiis
+                            officiis consequuntur perferendis harum eum?
+                        </p>
+                        <Button variant="outline-danger">Read More</Button>{" "}
+                    </div>
+                    <div className={styles.cards}>
+                        <img
+                            src="https://alloggio.qodeinteractive.com/wp-content/uploads/2020/03/blog-list-img-3.jpg"
+                            style={{ width: "100%", height: "" }}
+                        ></img>
+                        <p
+                            style={{
+                                color: "#f06b66",
+                                fontSize: "1.3rem",
+                                marginTop: "10px",
+                            }}
+                        >
+                            March 19, 2020
+                        </p>
+                        <h1 style={{ marginBottom: "30px" }}>
+                            Campaign In Italy
+                        </h1>
+                        <p className="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Saepe quis cum fugit tempore aliquid
+                            repudiandae quisquam, dicta repellendus dignissimos!
+                            Et accusantium sunt pariatur, animi blanditiis
+                            officiis consequuntur perferendis harum eum?
+                        </p>
+                        <Button variant="outline-danger">Read More</Button>{" "}
+                    </div>
+                </div>
+            </Container>
+            <Container fluid className={styles.newsletter_main}>
+                <Container className={styles.newsLetterInside}>
+                    <svg
+                        width="24"
+                        height="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                    >
+                        <path d="M24 23h-24v-13.275l2-1.455v-7.27h20v7.272l2 1.453v13.275zm-20-10.472v-9.528h16v9.527l-8 5.473-8-5.472zm14-.528h-12v-1h12v1zm0-3v1h-12v-1h12zm-7-1h-5v-3h5v3zm7 0h-6v-1h6v1zm0-2h-6v-1h6v1z" />
+                    </svg>
+                    <h1>Join our weekly Newsletter</h1>
+                </Container>
             </Container>
         </>
     );
